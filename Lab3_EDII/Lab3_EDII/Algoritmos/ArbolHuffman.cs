@@ -36,10 +36,10 @@ namespace Lab3_EDII.Algoritmos
 
                 if (orderedNodes.Count >= 2)
                 {
-                    // Take first two items
+                    // Primeros dos items
                     List<NodoHuffman> taken = orderedNodes.Take(2).ToList<NodoHuffman>();
 
-                    // Create a parent node by combining the frequencies
+                    // Crear nodo padre
                     NodoHuffman parent = new NodoHuffman()
                     {
                         Symbol = '*',
